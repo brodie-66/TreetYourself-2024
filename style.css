@@ -1,0 +1,191 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: skyblue;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+}
+
+main h2, main h3 {
+    color: #3c763d;
+}
+
+.dropdown {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: #f7f7f7;
+    display: none;
+}
+
+
+.drop-img {
+	width: 50%;
+	
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: skyblue;
+    text-decoration: none;
+}
+.sub-titel {
+	text-decoration: underline;
+	
+}
+
+#cost-calculator {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#cost-calculator h2 {
+    cursor: pointer;
+    color: #3c763d;
+    margin: 0;
+    padding: 0.5rem;
+    border-bottom: 2px solid #3c763d;
+    display: inline-block;
+}
+
+#cost-calculator h2:hover {
+    text-decoration: underline;
+}
+
+#cost-calculator div {
+    margin-bottom: 1rem;
+}
+
+#cost-calculator input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+#cost-calculator label {
+    font-weight: bold;
+}
+
+#total-cost {
+    font-weight: bold;
+    color: #3c763d;
+    font-size: 1.2rem;
+}
+.calc-disclaimer{
+	text-decoration: underline;
+	
+}
+
+#email-link {
+    color: #007bff; /* A blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+.box {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+
+}
+
+.logo{
+	
+	width: 60%;
+/*	height: 2%;*/
+	padding-right: 8%;
+	padding-top: 0%;
+	position: static; 
+	
+	
+	
+	
+}
+
+.drop-img {
+        float: left; /* Aligns the image to the right */
+        margin: 10px; /* Adds some space around the image */
+        max-width: 200px; /* Ensures the image doesn't take up too much space */
+        height: auto;
+		 float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 15%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+	
+		
+	
+    }
+
+.float-image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.spacer{
+	padding-top: 7%;
+	
+}
+
+overview-cont{
+	padding-top: 200%; 
+}
+
+ai-img{
+	width: 1%; 
+	max-width: 10%
+}
+.spacer2{
+	padding-bottom: 4%; 
+}
+
+.us{
+	width: 20%; 
+	 
+}
+
+.overview-img{
+	width: 100%;
+	padding-top: 0%; 
+
+}
